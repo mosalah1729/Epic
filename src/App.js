@@ -1,25 +1,63 @@
-import logo from './logo.svg';
+import Footer from './component/Footer';
+import Middle from './component/Middle';
+import Middle2 from './component/Middle2';
+import Header from './component/Header';
 import './App.css';
 
+
 function App() {
+
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+    <div>
+      <Header />
+      <Middle />
+      <Middle2 />
+      <Footer />
+      
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+ // const [count,setCount]=useState(0)
+  // const addCount=()=>{
+  //   setCount(count+1)
+  // }
+  // const subCount=()=>{
+  //   setCount(count-1)
+  // }
+  // const obj={
+  //   tity:'2nd',
+  //   count:count,
+  //   just:'heyy'
+  // }
+  // const objy={
+  //   tit:'3nd',
+  //   count:count,
+  //   just:'keyy'
+  // }
+
+
+
+
+
+ // <div>
+    //   <button onClick={addCount}>add</button>  
+    //   <button onClick={subCount}>sub</button>
+    //  {/* <h1>hello world:{count}</h1> */}
+    //   <Counter title='1st' just="fuck" count={count}/>
+    //   <Counter {...obj}{...objy} just="diff"/>
+      
+    // </div>

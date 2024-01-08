@@ -1,0 +1,49 @@
+.image-gallery {
+    display: flex;
+    justify-content: center; 
+    position: relative; 
+    width: 100%; 
+    box-sizing: border-box;
+    padding: 20px; 
+    background-color: black; 
+    text-align: center; 
+    margin-left: 0 auto;
+  }
+  .image-row {
+    justify-content: center;
+    margin-top: 190px;
+  }
+  .gallery-image {
+    width: 347px;
+    height: 347px; 
+    object-fit: cover; 
+    margin: 5px;
+    margin-left: 50px;
+
+  }
+  
+  .image-description {
+    font-family: 'Roboto',;
+    position: absolute; 
+    color: white;
+   
+    text-align: center; 
+    width: 347px;
+height: 66px;
+top: 1612px;
+left: 389px;
+
+font-size: 19px;
+font-weight: 300;
+line-height: 22px;
+letter-spacing: 0.02em;
+
+
+
+  }
+  
+  .middle {
+    width: 80%; /* Set the width of the middle section to 80% of the viewport width */
+    padding: 3%; /* Set the padding to 3% of the viewport width */
+    /* Add other styles as needed */
+  }

@@ -1,0 +1,112 @@
+.epic-game-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .content {
+    text-align: center;
+    margin-top: 70px;
+  }
+  
+  h1 {
+    width: 1375px;
+height: 96px;
+top: 147px;
+left: 273px;
+
+    /* width: 100%; */
+    max-width: 1375px;
+    margin-top: 147px;
+    margin-bottom: 0;
+    font-family: 'Roboto', ;
+    font-size: 45px;
+    font-weight: 200;
+    line-height: 48px;
+    letter-spacing: 0.9599999785423279px;
+    text-align: center;
+    margin: 0 auto;
+
+  }
+  
+  .game-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+  
+  p {
+    /* max-width: 1231px; */
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    width: 1231px;
+    height: 81px;
+    top: 843px;
+    left: 345px;
+    opacity: 0.8;
+
+    /* margin: 0 auto; */
+    
+  }
+  
+  .visit-website-button {
+    width: 416px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Adjust as needed */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 0px;
+    font-family: 'Poppins',;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.96px;
+    text-align: center;
+  }
+  
+  .button-text {
+    width: 100%; /* Adjusted to take full width */
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.96px;
+    text-align: center;
+    color: black;
+  }
+  .header {
+    width: 100%; /* Set the width of the header to 100% of the viewport width */
+    padding: 2% 5%; /* Set the padding to 2% of the viewport width for top and bottom, and 5% for left and right */
+    /* Add other styles as needed */
+  }
+  .rotate-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(0, 0, 0);
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Adding transition for a smooth effect */
+  }
+  
+  .rotate-button:hover {
+    transform: rotate(90deg); /* Rotate the button 90 degrees on hover */
+  }
+  

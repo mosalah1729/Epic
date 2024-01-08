@@ -1,0 +1,126 @@
+.footer {
+    position: relative;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    /* Add other styles as needed */
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    height: 125vh;
+  }
+  .box{
+    width: 938px;
+height: 342px;
+top: 2593px;
+left: 491px;
+
+  }
+  .footer-text1 {
+    font-family: 'Roboto', ;
+
+    text-align: center;
+font-size: 45px;
+font-weight: 300;
+line-height: 48px;
+letter-spacing: 0.9599999785423279px;
+
+margin-top: 0px;
+
+  }
+  
+  .footer-text2 {
+    font-weight: 100;
+    width: 864px;
+height: 99px;
+top: 2691px;
+left: 528px;
+margin: 0 auto;
+    font-family: 'Roboto',;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+margin-top: 60px;
+    
+    
+
+
+  }
+  
+  .footer-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .footer-button1 {
+    width: 373px;
+height: 60px;
+top: 2875px;
+left: 569px;
+
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-family: 'Poppins' ;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.9599999785423279px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 0px;
+  }
+  .footer-button2 {
+    width: 373px;
+height: 60px;
+top: 2875px;
+left: 569px;
+
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-family: 'Poppins' ;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.9599999785423279px;
+    text-align: center;
+    background-color: white;
+    color: black;
+
+
+
+    
+    cursor: pointer;
+    border-radius: 0px;
+  }
+  .footer-button:hover {
+    background-color: #333; 
+  }
+  
+
+  .copyright{
+    font-family: 'Roboto',;
+    width: 561px;
+height: 26px;
+top: 3245px;
+left: 680px;
+opacity: 0.9px;
+
+font-size: 19px;
+font-weight: 300;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+justify-content: center ;
+
+
+  }
